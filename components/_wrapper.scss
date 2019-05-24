@@ -1,0 +1,19 @@
+.gradient {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba($color-linear-gradient17, 0),
+        rgba($color-linear-gradient18, 0));
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    object-fit: cover;
+
+    @include respond(phone) {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-linear-gradient17, .85),
+            rgba($color-linear-gradient18, .85));
+        
+    }
+}

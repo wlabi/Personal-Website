@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    background-color: $color-grey-light-2;
+    margin-bottom: 1.5rem;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 2rem;
+    line-height: 3.5rem;
+    color: $color-white;
+}
+
+.css {
+    width: 80%;
+    //background-color: #2196F3;
+    background-color: orangered;
+}
+
+.js {
+    width: 75%;
+    //background-color: #f44336;
+    background-color: orangered;
+}
+
+.react {
+    width: 50%;
+    //background-color: #808080;
+    background-color: orangered;
+}
+/*
+.python {
+    width: 80%;
+    background-color: #4CAF50;
+*/

@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    @include respond(big-desktop) {
+        font-size: 65%;
+    }
+
+    @include respond(tab-land) {
+        font-size: 50%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 45%;
+    }
+
+    @include respond(lumia) {
+        font-size: 35%;
+    }
+
+    @include respond(phone) {
+        font-size: 30%;
+    }
+
+    @include respond(small-phone-land) {
+        font-size: 25%;
+    }
+
+    @include respond(small-phone) {
+        font-size: 20%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    letter-spacing: .1rem;
+}
+
+a {
+    color: $color-white;
+}
+
+a:hover {
+    color: $color-orangered;
+    text-decoration: none;
+    //font-weight: 400;
+}

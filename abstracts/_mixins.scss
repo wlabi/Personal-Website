@@ -1,0 +1,60 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+// Media query manager
+
+/*
+0 - 349px:      small phone (320x480 320x568)
+350 - 399px:    normal phone (360x740 375x667 375x812)
+400 - 599px:    big phone (411x731 414x736 480x853)
+600 - 899px:    tablet portrait (600x960 768x1024 800x1280)
+900 - 1199px:   tablet landscape
+1200 - 1799px:  normal (incl iPad pro 1024x1366)
+1800 ~          big desktop
+
+
+
+0 - 528px:      phone
+528 - 900px:    tab-port
+900 - 1200px:   tab-land
+1200 - 1800px:  normal styles
+1800px ~ :      big desktop
+*/
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) { @content };   //1800px
+    }
+
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) { @content };      //1200px
+    }
+
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) { @content };   //900px
+    }
+
+    @if $breakpoint == lumia {
+        @media only screen and (max-width: 43.75em) { @content };    //700px
+    }
+
+    @if $breakpoint == small-phone-land {
+        @media only screen and (max-width: 37.5em) { @content };    //600px
+    }
+
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 26em) { @content };    //416px
+    }
+    
+    @if $breakpoint == small-phone {
+        @media only screen and (max-width: 21em) { @content };    //340px
+    }
+}
+
+// ORDER: Base + typography > general layout + grid > page layout > components

@@ -1,0 +1,102 @@
+.contact__form {
+    position: relative;
+    bottom: -4rem;
+    top: 0;
+}
+
+.form {
+    width: 75%;
+    //border: .3rem solid $color-white;
+    margin: 0 auto;
+    //border-radius: .5rem;
+    padding: 4rem;
+    position: relative;
+    top: 6rem;
+    //box-shadow: 0 1rem 2rem rgba($color-black, .3);
+
+    @include respond(phone) {
+        width: 90%;
+        border: none;
+    }
+ 
+    &__group:not(:last-child) {
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+
+    &__group--first {
+        display: inline-block;
+        width: 49%;
+
+        @include respond(phone) {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__group--second {
+        float: right;
+        width: 49%;
+
+        @include respond(phone) {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__input {
+        font-size: 1.5rem;
+        font-family: inherit;
+        padding: 1.5rem 2rem;
+        //border-radius: .3rem;
+        background-color: $color-white;
+        width: 100%;
+        height: 100%;
+        border: none;
+        //box-shadow: 0 1rem 2rem rgba($color-black, .3);
+        font-weight: 400;
+
+        &--message {
+            padding: 7rem 2rem !important;
+        }
+/*
+        &:focus {
+            //outline: none;
+            //outline: 3px solid $color-orangered;
+            //box-shadow: 0 1rem 2rem rgba($color-black, .3);
+            //border-bottom: 3px solid $color-primary;
+            //opacity: .8;
+        }
+*/
+/*
+        &:focus:invalid {
+            border-bottom: 3px solid $color-orangered;
+        }
+*/
+        &::-webkit-input-placeholder {
+            color: $color-primary;
+            opacity: .3;
+        }
+    }
+
+    &__label {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-top: .7rem;
+        display: block;
+        transition: all .3s;
+    }
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 20rem;
+}

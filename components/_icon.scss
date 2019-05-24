@@ -1,0 +1,62 @@
+.social {
+    position: relative;
+    text-align: center;
+    bottom: 1.5rem;
+}
+
+.social-links li {
+    display: inline-block;
+    font-size: 2.5rem;
+
+    @include respond(phone) {
+        font-size: 4rem;
+        display: block;
+    }
+}
+
+.ion-logo-twitter {
+    color: $color-white;
+    margin-right: 2rem;
+
+    &:hover {
+        color: $color-twitter;
+    }
+
+    @include respond(phone) {
+        margin-right: 4rem;
+    }
+}
+
+.ion-logo-facebook {
+    color: $color-white;
+    margin-right: 2rem;
+
+    &:hover {
+        color: $color-fb;
+    }
+
+    @include respond(phone) {
+        margin-right: 4rem;
+    }
+}
+
+.ion-logo-linkedin {
+    color: $color-white;
+    margin-right: 2rem;
+
+    &:hover {
+        color: $color-in;
+    }
+
+    @include respond(phone) {
+        margin-right: 4rem;
+    }
+}
+
+.ion-logo-airplane {
+    font-size: 1.5rem;
+
+    @include respond(phone) {
+        font-size: 2rem;
+    }
+}

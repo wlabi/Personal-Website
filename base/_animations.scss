@@ -1,0 +1,88 @@
+// Timed entry popup
+/*
+@keyframes entry-popup1 {
+    from {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes entry-popup2 {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        visibility: hidden;
+    }
+}
+*/
+// Desktop animations
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes logoMoveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

@@ -1,0 +1,75 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    //box-shadow: 0 1rem 2rem rgba($color-black, .3);
+
+
+    /*@include respond(phone) {
+        //margin-top: 10rem;
+        width: 100%;
+    }*/
+}
+
+.input {
+    position: absolute;
+    opacity: 0;
+}
+
+.label {
+    padding: 1rem 2rem;
+    background: transparent;
+	cursor: pointer;
+    color: $color-white;
+    transition: background 0.1s, color 0.1s;
+    //border: .1rem solid transparent;
+    width: 100%;
+    text-align: center;
+    //margin-top: 2rem; //<--------------
+}
+/*
+.label:hover {
+    border: .1rem solid $color-white;
+}
+*/
+.input:checked + .label {
+    color: $color-primary;
+    background: $color-white;
+    font-weight: 300;
+}
+
+@media (min-width: 450px) { //<------------------600
+	.label {
+        //width: calc(100%/5);
+        width: calc(100%/4);
+	}
+}
+
+.tab {
+    display: none;
+	padding: 4rem;
+    background: $color-white;
+    color: $color-primary !important;
+    width: 100%;
+    height: 28rem; //<-----------------------------------------------------------------??? smaller phones portrait
+    box-shadow: 0 1rem 2rem rgba($color-black, .3);
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+@media (min-width: 450px) {//600
+	.tab {
+		order: 99;
+	}
+}
+
+.input:checked + .label + .tab {
+    display: block;
+}

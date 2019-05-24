@@ -1,0 +1,338 @@
+//entry-popup
+/*
+.entry-popup {
+    animation:  entry-popup1
+                .1s
+                ease
+                10s
+                1
+                normal
+                forwards;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba($color-linear-gradient3, .95), rgba($color-linear-gradient4, .95));
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    transition: all .3;
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        height: 50%;
+        //height: 55rem;
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient11, 1), rgba($color-linear-gradient10, 1), rgba($color-linear-gradient11, 1)); //shifty
+        background: linear-gradient(to bottom right, rgba($color-linear-gradient10, 1), rgba($color-linear-gradient11, 1)); //shifty
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient14, 1), rgba($color-linear-gradient15, 1), rgba($color-linear-gradient16, 1)); //berimbolo
+        border-radius: .3rem;
+        color: $color-white;
+        animation:  entry-popup1
+                    2s
+                    ease
+                    10s
+                    1
+                    normal
+                    forwards;
+        transition: all .5s .2s;
+    }
+
+    &__close {
+        color: $color-white;
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        font-size: 3rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: all .2s;
+        line-height: 1;
+    
+        &:hover {
+            color: $color-orangered;
+            transform: scale(1.5);
+        }
+    
+        &:remove {
+            animation:  entry-popup2
+                        2s
+                        ease
+                        10s
+                        1
+                        normal
+                        forwards;
+        }  
+    }
+}
+*/
+
+
+// popups
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-primary, .95);
+    //background: linear-gradient(to bottom, rgba($color-linear-gradient1, .95), rgba($color-linear-gradient2, .9)); //titanium
+    //z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3;
+    z-index: 1;
+
+    &__inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 75%;
+        height: 75vh;
+        //background: linear-gradient(to top, rgba($color-linear-gradient3, 1), rgba($color-linear-gradient4, 1)); //endless river
+        //background: linear-gradient(to top, rgba($color-linear-gradient5, 1), rgba($color-linear-gradient6, 1)); //blue skies
+        //background: linear-gradient(to top left, rgba($color-linear-gradient7, 1), rgba($color-linear-gradient8, 1)); //dusk
+        //background: linear-gradient(to top left, rgba($color-linear-gradient9, 1), rgba($color-linear-gradient10, 1)); //crystal clear X
+
+        //similar
+        //background: linear-gradient(to top left, rgba($color-linear-gradient11, 1), rgba($color-linear-gradient12, 1)); //mild
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient13, 1), rgba($color-linear-gradient14, 1)); //emerald water
+
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient15, 1), rgba($color-linear-gradient16, 1)); //sel X
+        background: linear-gradient(to bottom, rgba($color-linear-gradient17, 1), rgba($color-linear-gradient18, 1)); //aqua splash ----------------
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient19, 1), rgba($color-linear-gradient20, 1)); //evening night X
+        //background: linear-gradient(to top, rgba($color-linear-gradient21, 1), rgba($color-linear-gradient22, 1)); //mantle
+        //background: linear-gradient(to bottom right, rgba($color-linear-gradient23, 1), rgba($color-linear-gradient24, 1)); //horizon X
+        //border-radius: .5rem;
+        display: table;
+        overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.25);
+        transition: all .5s .1s;
+        color: $color-white;
+        //box-shadow: 0 2rem 4rem rgba($color-black, .2);
+        //font-size: $default-font-size;
+        font-size: 2rem;
+        border-radius: .5rem;
+
+
+        @include respond(small-phone) {
+            //position: fixed;
+            width: 100%;
+            height: 100%;
+            //overflow-y: scroll;
+        }
+
+        @include respond(big-desktop) {
+            width: 75%;
+            height: 75%;
+        }
+
+    }
+
+    &__about {
+        //position: relative;
+        width: 75%;
+        margin: 0 auto;
+        column-count: 3;
+        column-gap: 3rem;
+        column-rule: 1px solid $color-white;
+        hyphens: manual;
+        //padding-top: 20rem;
+        //position: relative;
+        //bottom: -10rem;
+        //top: -5rem;
+        //top: 5rem;
+        margin-top: 5rem;
+
+        @include respond(tab-port) {
+            width: 80%;
+            column-count: 2;
+            //margin-top: 20rem !important;
+            margin-top: -1rem;
+            font-size: 2rem;
+        }
+
+        @include respond(lumia) {
+            width: 80%;
+            column-count: 2;
+            //margin-top: 20rem !important;
+            margin-top: -1rem;
+            font-size: 2rem;
+        }
+
+        @include respond(small-phone-land) {
+            width: 80%;
+            column-count: 2;
+            //margin-top: 20rem !important;
+            margin-top: -1rem;
+            font-size: 2.5rem;
+        }
+
+        @include respond(phone) {
+            width: 80%;
+            column-count: unset;
+            font-size: 3rem;
+            //margin-top: -30rem;
+        }
+
+        @include respond(small-phone) {
+            width: 80%;
+            //margin-top: 29rem !important;
+            //width: 30rem;
+            height: 50rem;
+            font-size: 3.8rem;
+            overflow-y: scroll;
+            margin-top: -3rem;
+        }
+    }
+
+    &__notification {
+        position: absolute;
+        top: 2rem;
+        text-align: center;
+        width: 100%;
+
+        @include respond(phone) {
+            visibility: hidden;
+        }
+    }
+
+    &__content {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    &__portfolio {
+        width: 75%;
+        margin: 0 auto;
+        //position: relative;
+        text-align: center;
+    }
+
+    &__img {
+        height: 100%;
+        backface-visibility: hidden;
+        transform: translateY(-2rem) translateX(2rem) scale(1.4);
+
+
+        &-shape {
+            display: block;
+            width: 19rem;
+            height: 19rem;
+            margin: 0 auto !important;
+            //position: relative;
+            overflow: hidden;
+            //border-radius: 50%;
+            border-radius: .5rem;
+            //margin-top: -5rem;
+            //top: 5rem;
+            
+
+            @include respond(phone) {
+                margin-top: 6rem !important;
+                //position: absolute;
+                //top: 25%;
+                //left: 50%;
+                //transform: translate(-50%, -50%);
+                //text-align: center;
+                //width: 100%;
+                display: none;
+            }
+
+            @include respond(small-phone) {
+                width: 25rem;
+                height: 25rem;
+                display: none;
+            }
+
+            @include respond(small-phone-land) {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: none;
+            }
+
+            @include respond(lumia) {
+                width: 25rem;
+                height: 25rem;
+                display: none;
+            }
+
+            @include respond(tab-port) {
+                position: absolute;
+                top: 15%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: none;
+            }
+        }
+
+        &-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 20%);
+            color: $color-white;
+            //text-transform: uppercase;
+            font-size: 1.4rem;
+            letter-spacing: .2rem;
+            text-align: center;
+            opacity: 0;
+            transition: all .5s;
+            backface-visibility: hidden;
+
+            &:hover {
+                opacity: 1;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+    }
+
+    // open
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &:target &__inner {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    &__close {
+        &:link,
+        &:visited {
+            color: $color-white;
+            position: absolute;
+            top: 0;
+            right: 1rem;
+            font-size: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: all .2s;
+            line-height: 1;
+
+            @include respond(phone) {
+                font-size: 7rem;
+            }
+        }
+
+        &:hover {
+            color: $color-orangered;
+            transform: scale(1.5);
+        }
+    }
+}

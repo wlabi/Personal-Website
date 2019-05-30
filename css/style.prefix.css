@@ -250,6 +250,7 @@ body {
     @media only screen and (max-width: 21em) {
       .heading-primary--sub {
         font-family: 'Lato', sans-serif !important;
+        font-weight: 700;
         -webkit-animation: none;
                 animation: none;
         font-size: 3rem; } }

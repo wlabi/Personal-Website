@@ -795,6 +795,7 @@ textarea {
   display: inline-block;
   transition: all 0.2s;
   line-height: 1;
+  font-weight: 300;
 }
 @media only screen and (max-width: 26em) {
   .popup__close:link,
@@ -805,6 +806,8 @@ textarea {
 .popup__close:hover {
   color: #ff3838;
   transform: scale(1.5);
+  font-weight: 300;
+
 }
 .container {
   width: 100%;

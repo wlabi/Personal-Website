@@ -193,9 +193,9 @@ body {
   animation: moveInLeft 5s ease-out;
   text-align: center;
   margin-bottom: 1rem;
-  /*color: #333333;*/
-  color: #ffffff !important;
-
+  /*color: #333333;
+  color: #ffffff !important;*/
+  color: #ff4500 !important;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

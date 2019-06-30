@@ -592,7 +592,7 @@ textarea {
   transform: translate(-50%, -50%);
   width: 85%;
   height: 85%;
-  background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+  background: linear-gradient(to bottom right, #2f80ed, #56ccf2);
   
   display: table;
   overflow: hidden;

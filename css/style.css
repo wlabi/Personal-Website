@@ -165,7 +165,6 @@ body {
   line-height: 1.7;
   /*color: #333333;
   color: #ffffff !important;*/
-  color: #ff4500 !important;
 }
 .heading-primary {
   font-weight: 700;
@@ -174,7 +173,8 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   margin-bottom: 2rem;
-  color: #ffffff !important;
+  /*color: #ffffff !important;*/
+  color: #ff4500 !important;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary {

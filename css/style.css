@@ -163,7 +163,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   line-height: 1.7;
-  color: #333333;
+  /*color: #333333;*/
+  color: #fff !important;
 }
 .heading-primary {
   font-weight: 700;

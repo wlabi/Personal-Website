@@ -900,6 +900,7 @@ ul {
 .input:checked + .label + .tab {
   display: block;
 }
+/*
 .gradient {
   height: 100vh;
   background-image: linear-gradient(
@@ -921,7 +922,31 @@ ul {
       rgba(128, 208, 199, 0.85)
     );
   }
+}*/
+
+gradient {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 70, 0),
+    rgba(28, 181, 224, 0)
+  );
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
+@media only screen and (max-width: 26em) {
+  .gradient {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0,0,70, 0.85),
+      rgba(28,181,224, 0.85)
+    );
+  }
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;

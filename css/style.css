@@ -600,14 +600,16 @@ textarea {
   transform: translate(-50%, -50%);
   width: 85%;
   height: 85%;
-  background: linear-gradient(to bottom, #000046, #1CB5E0);
-  /*background: linear-gradient(to bottom, #5B86E5, #36D1DC);*/
+  /*background: linear-gradient(to bottom, #000046, #1CB5E0);
+  background: linear-gradient(to bottom, #5B86E5, #36D1DC);*/
+  background: #ffffff;
   display: table;
   overflow: hidden;
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.5s 0.1s;
-  color: #fff;
+  /*color: #fff;*/
+  color: #333333;
   font-size: 2rem;
   border-radius: 0.5rem;
 }

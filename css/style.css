@@ -212,8 +212,9 @@ body {
   margin: 15% 0 0 15%;
   margin: 15% auto auto auto;***********************************************************************************/
   position: absolute;
-  top: 20rem;
+  top: 16rem;
   left: 1%;
+  bottom: -20%;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

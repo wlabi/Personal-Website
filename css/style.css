@@ -1020,6 +1020,7 @@ ul {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  display: none;
 }
 @media only screen and (max-width: 26em) {
   .desktop__logo-box {

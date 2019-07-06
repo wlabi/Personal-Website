@@ -249,7 +249,8 @@ body {
   color: #ffffff !important;
   
   /***********************************************************************************/
-  margin-top: 10rem;
+  margin-top: 15rem;
+  margin-top: 15rem;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--sub {

@@ -183,7 +183,6 @@ body {
   text-orientation: upright;
   -webkit-text-orientation: upright;
   height: 100%;
-  bottom: 10rem;
   /*font-size: 4rem !important;
   ******************************************************************************************************/
 
@@ -213,7 +212,7 @@ body {
   margin: 15% 0 0 15%;
   margin: 15% auto auto auto; ***********************************************************************************/
   position: absolute;
-  top: 0;
+  top: auto;
   left: 1%;
 
 }
@@ -259,9 +258,9 @@ body {
   margin: 1.5% 0 0 5%;
   margin: 5% auto 0% auto;***********************************************************************************/
   position: absolute;
-  top: 0;
+  top: auto;
   left: 7%;
-  bottom: -20%;
+  /*bottom: -20%;*/
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--sub {

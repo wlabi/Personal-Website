@@ -151,6 +151,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   letter-spacing: 0.1rem;
+  word-spacing: normal;
 }
 a {
   color: #fff;
@@ -166,7 +167,6 @@ body {
   /*color: #333333;
   color: #ffffff !important;*/
   color: #ffffff !important;
-  word-spacing: normal;
 }
 .heading-primary {
   /*font-weight: 700;*********************************************************************************/

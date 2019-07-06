@@ -241,7 +241,7 @@ body {
 .heading-primary--sub {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 1rem;
   -webkit-animation: moveInRight 5s ease-out;
   animation: moveInRight 5s ease-out;
@@ -250,7 +250,7 @@ body {
   color: #ffffff !important;
   
   /*margin: 15rem 0 0 20rem;***********************************************************************************/
-  margin: 1% 0 0 10%;
+  margin: 1.5% 0 0 5%;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--sub {

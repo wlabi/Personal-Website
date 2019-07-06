@@ -182,7 +182,7 @@ body {
   writing-mode: vertical-rl;
   text-orientation: upright;
   -webkit-text-orientation: upright;
-  font-size: 4rem;
+  font-size: 4rem !important;
   /*******************************************************************************************************/
 
 }

@@ -209,7 +209,7 @@ body {
   
   /*margin: 10rem 0 0 10rem;
   margin: 15% 0 0 15%; ***********************************************************************************/
-  margin: 30px auto auto auto;
+  margin: 40px auto auto auto;
 
 }
 @media only screen and (max-width: 26em) {
@@ -252,7 +252,7 @@ body {
   
   /*margin: 15rem 0 0 20rem;
   margin: 1.5% 0 0 5%;***********************************************************************************/
-  margin: 30px auto auto auto;
+  margin: 40px auto auto auto;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--sub {

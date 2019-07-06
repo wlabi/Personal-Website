@@ -183,7 +183,7 @@ body {
   text-orientation: upright;
   -webkit-text-orientation: upright;
   height: 100%;
-  top: 100%;
+  bottom: 10rem;
   /*font-size: 4rem !important;
   ******************************************************************************************************/
 

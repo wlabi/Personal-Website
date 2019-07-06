@@ -175,7 +175,13 @@ body {
   backface-visibility: hidden;
   margin-bottom: 2rem;
   color: #ffffff !important;
-  /*color: #ff4500 !important;*/
+  
+  /*************************************************/
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary {

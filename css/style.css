@@ -246,7 +246,7 @@ body {
 .heading-primary--sub {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
-  font-size: 2.5rem;
+  font-size: 3rem;
   letter-spacing: 1rem;
   -webkit-animation: moveInRight 5s ease-out;
   animation: moveInRight 5s ease-out;
@@ -258,7 +258,7 @@ body {
   margin: 1.5% 0 0 5%;
   margin: 5% auto 0% auto;***********************************************************************************/
   position: absolute;
-  top: 20rem;
+  top: 15rem;
   left: 7%;
   bottom: -20%;
 }

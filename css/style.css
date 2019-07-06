@@ -206,6 +206,8 @@ body {
   /*margin-bottom: 1rem;***********************************************************************************/
   /*color: #333333;*/
   color: #ffffff !important;
+  /***********************************************************************************/
+  margin-top: 10rem;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

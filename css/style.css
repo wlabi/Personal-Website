@@ -241,16 +241,16 @@ body {
 .heading-primary--sub {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 1rem;
   -webkit-animation: moveInRight 5s ease-out;
   animation: moveInRight 5s ease-out;
   font-family: "Bungee Shade", cursive !important;
-  text-align: center;
+  /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   
   /*margin: 15rem 0 0 20rem;***********************************************************************************/
-  margin: 3% 0 0 12%;
+  margin: 1% 0 0 10%;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--sub {

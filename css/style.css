@@ -201,7 +201,7 @@ body {
 .heading-primary--main {
   display: block;
   /*font-size: 7rem;***********************************************************************************/
-  font-size: 5rem;
+  font-size: 6rem;
   /*letter-spacing: 4rem;***********************************************************************************/
   -webkit-animation: moveInLeft 5s ease-out;
   animation: moveInLeft 5s ease-out;

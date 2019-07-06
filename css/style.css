@@ -248,7 +248,7 @@ body {
 .heading-primary--sub {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   letter-spacing: 1rem;
   -webkit-animation: moveInRight 5s ease-out;
   animation: moveInRight 5s ease-out;

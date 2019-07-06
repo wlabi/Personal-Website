@@ -151,7 +151,6 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   letter-spacing: 0.1rem;
-  word-spacing: 0.3rem;
 }
 a {
   color: #fff;
@@ -186,6 +185,8 @@ body {
   height: 100%;
   /*font-size: 4rem !important;
   ******************************************************************************************************/
+  word-spacing: 0.3rem;
+
 
 }
 @media only screen and (max-width: 26em) {

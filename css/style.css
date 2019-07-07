@@ -1092,3 +1092,9 @@ ul {
   top: 25%;
   right: 5%;
 }
+
+@media only screen and (max-width: 56.25em) {
+  #controls {
+  position: relative;
+  }
+}

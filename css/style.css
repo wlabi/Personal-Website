@@ -305,6 +305,7 @@ body {
   .heading-primary--sub {
     -webkit-animation: none;
     animation: none;
+    position: relative;
   }
 }
 @media only screen and (max-width: 75em) {

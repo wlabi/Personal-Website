@@ -192,11 +192,9 @@ body {
 
 @media only screen and (max-width: 56.25em) {
   .heading-primary {
-    color: #ffffff !important;
-    font-family: "Lato", sans-serif !important;
-    font-weight: 300;
-    writing-mode: unset;
-    text-orientation: unset;
+    writing-mode: none;
+    text-orientation: none;
+    height: 0;
   }
 }
 

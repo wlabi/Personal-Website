@@ -983,7 +983,7 @@ ul {
 }
 */
 
-@media only screen and (max-width: 26em) {
+@media only screen and (max-width: 56.25em) {
   .gradient {
     background-image: linear-gradient(
       to bottom,

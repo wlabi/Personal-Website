@@ -250,8 +250,8 @@ body {
   /*font-size: 3rem;***********************************************************************************/
   font-size: 2.6rem;
   letter-spacing: 1rem;
-  -webkit-animation: moveInRight 5s ease-out;
-  animation: moveInRight 5s ease-out;
+  -webkit-animation: moveInBottom 5s ease-out;
+  animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;******************************************************/
   font-family: "Bungee Outline", cursive !important;
   /*text-align: center;***********************************************************************************/

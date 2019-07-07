@@ -1066,3 +1066,9 @@ ul {
     letter-spacing: 0.2rem;
   }
 }
+
+#controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -321,6 +321,12 @@ body {
     left: 0;
     bottom: 0;
     top: 8rem;
+    
+    font-family: "Lato", sans-serif !important;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
   }
 }
 @media only screen and (max-width: 75em) {

@@ -198,11 +198,17 @@ body {
     text-orientation: unset;
     -webkit-text-orientation: unset;
     /*margin-top: 0;*/
+    
+    color: #ffffff !important;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 300;
+    margin-top: 15rem;
+    margin-bottom: 4rem;
   }
 }
 /******************************************************************************************************/
 
-
+/*
 @media only screen and (max-width: 26em) {
   .heading-primary {
     color: #ffffff !important;
@@ -212,6 +218,7 @@ body {
     margin-bottom: 4rem;
   }
 }
+*/
 .heading-primary--main {
   display: block;
   /*font-size: 7rem;***********************************************************************************/

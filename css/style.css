@@ -253,7 +253,7 @@ body {
     animation: none;
     /***************************************************************************************************/
     position: relative;
-    top: -20%;
+    top: -15%;
     left: 0;
     bottom: 0;
   }
@@ -309,7 +309,7 @@ body {
     -webkit-animation: none;
     animation: none;
     position: relative;
-    top: 0;
+    top: -20%;
     left: 0;
     bottom: 0;
   }

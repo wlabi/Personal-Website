@@ -252,7 +252,7 @@ body {
     -webkit-animation: none;
     animation: none;
     /***************************************************************************************************/
-    position: relative;
+    position: absolute;
     top: -15%;
     left: 0;
     bottom: 0;
@@ -308,7 +308,7 @@ body {
   .heading-primary--sub {
     -webkit-animation: none;
     animation: none;
-    position: relative;
+    position: absolute;
     top: -20%;
     left: 0;
     bottom: 0;

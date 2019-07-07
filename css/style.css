@@ -198,7 +198,8 @@ body {
     text-orientation: unset;
     -webkit-text-orientation: unset;
     /*margin-top: 0;*/
-    top: -20rem;
+    position: absolute;
+    top: 30%;
   }
 }
 /******************************************************************************************************/

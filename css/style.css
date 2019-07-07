@@ -446,6 +446,7 @@ body {
   .btn-ghost:visited {
     -webkit-animation: none;
     animation: none;
+    border: 0.1rem solid #ffffff;/*****************************************************************************/
   }
 }
 @media only screen and (max-width: 75em) {

@@ -197,7 +197,7 @@ body {
     writing-mode: unset;
     text-orientation: unset;
     -webkit-text-orientation: unset;
-    height: 0;
+    margin-top: 0;
   }
 }
 /******************************************************************************************************/

@@ -198,8 +198,6 @@ body {
     text-orientation: unset;
     -webkit-text-orientation: unset;
     /*margin-top: 0;*/
-    position: absolute;
-    margin: 0 auto;
   }
 }
 /******************************************************************************************************/

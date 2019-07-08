@@ -260,7 +260,7 @@ body {
     animation: none;
     /***************************************************************************************************/
     position: absolute;
-    text-align: center;
+    margin: 0 auto;
     margin-bottom: 2rem;
     /*top: -5rem;*/
     top: 2rem;

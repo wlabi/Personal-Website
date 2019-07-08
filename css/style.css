@@ -262,7 +262,7 @@ body {
     position: relative;
     margin-top: 0;
     left: 0;
-    bottom: 2rem;
+    margin-bottom: 2rem;
     top: -5rem;
     letter-spacing: 2rem;
   }

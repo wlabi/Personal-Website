@@ -315,11 +315,11 @@ body {
   .heading-primary--sub {
     -webkit-animation: none;
     animation: none;
-    /*position: relative;
+    position: relative;
     margin-top: 0;
     left: 0;
     bottom: 0;
-    top: 6rem;*/
+    top: 6rem;
     
     font-family: "Lato", sans-serif !important;
     font-size: 3.5rem;

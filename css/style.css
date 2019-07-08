@@ -674,7 +674,7 @@ textarea {
   background: linear-gradient(to bottom, #1CB5E0, #000046);
   display: table;
   overflow: hidden;
-  opacity: .5;
+  opacity: 0;
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.5s 0.1s;
   color: #fff;

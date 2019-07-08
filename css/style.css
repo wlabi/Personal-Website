@@ -261,7 +261,7 @@ body {
     /***************************************************************************************************/
     position: relative;
     /*margin: 0 auto;*/
-    top: -4rem;
+    top: -6rem;
     letter-spacing: 2rem;
   }
 }
@@ -320,7 +320,7 @@ body {
     left: 0;
     bottom: 0;
     /*top: 8rem;*/
-    top: -6rem;
+    top: -4rem;
     
     font-family: "Lato", sans-serif !important;
     font-size: 3.5rem;

@@ -261,8 +261,7 @@ body {
     /***************************************************************************************************/
     position: relative;
     margin: 0 auto;
-    margin-bottom: 2rem;
-    top: 2rem;
+    top: -2rem;
     letter-spacing: 2rem;
   }
 }

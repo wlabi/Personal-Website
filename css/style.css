@@ -183,9 +183,7 @@ body {
   text-orientation: upright;
   -webkit-text-orientation: upright;
   height: 100%;
-  /*font-size: 4rem !important;
-  ******************************************************************************************************/
-  word-spacing: 0.1rem;
+  /******************************************************************************************************/
 
 
 }
@@ -224,7 +222,7 @@ body {
   /*font-size: 7rem;***********************************************************************************/
   font-size: 4.5rem;
   letter-spacing: .2rem;
-  word-spacing: .2rem;
+  word-spacing: .1rem;
   -webkit-animation: moveInLeft 5s ease-out;
   animation: moveInLeft 5s ease-out;
   /*text-align: center;*/

@@ -223,7 +223,7 @@ body {
   display: block;
   /*font-size: 7rem;***********************************************************************************/
   font-size: 4.5rem;
-  letter-spacing: .5rem;
+  letter-spacing: .3rem;
   -webkit-animation: moveInLeft 5s ease-out;
   animation: moveInLeft 5s ease-out;
   /*text-align: center;*/

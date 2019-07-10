@@ -411,8 +411,8 @@ body {
 }
 .desktop__footer {
   font-family: "Comfortaa", cursive !important;
-  -webkit-animation: moveInTop 5s ease-out;
-  animation: moveInTop 5s ease-out;
+  -webkit-animation: moveInRight 5s ease-out;
+  animation: moveInRight 5s ease-out;
 }
 .bg-video {
   position: absolute;

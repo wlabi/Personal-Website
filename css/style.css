@@ -415,13 +415,12 @@ body {
   text-decoration: none;
   padding: 0.5rem;
   display: inline-block;
-  /*color: #333333;*/
   color: #ffffff !important;
   margin: 0 1.2rem;
   /*border: 0.1rem solid #333333;
   border: 0.1rem solid #ffffff;*****************************************************************************/
-  -webkit-animation: moveInBottom 5.5s ease-out;
-  animation: moveInBottom 5.5s ease-out;
+  -webkit-animation: moveInRight 5.5s ease-out;
+  animation: moveInRight 5.5s ease-out;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
   font-size: 1rem;
@@ -1108,7 +1107,7 @@ ul {
   position: absolute;
   /*top: 18rem;
   right: 5rem;*/
-  top: 20%;
+  top: 25%;
   right: 5%;
 }
 

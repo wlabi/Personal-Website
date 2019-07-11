@@ -131,19 +131,19 @@
 
 @-webkit-keyframes pulse {
   0% {
-    background-color: #ffffff;
+    color: #ffffff;
   }
   100% {
-    background-color: #ff4500;
+    color: #ff4500;
   }
 }
 
 @keyframes pulse {
   0% {
-    background-color: #ffffff;
+    color: #ffffff;
   }
   100% {
-    background-color: #ff4500;
+    color: #ff4500;
   }
 }
 

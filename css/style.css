@@ -321,8 +321,8 @@ body {
   letter-spacing: 1rem;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
-  -webkit-keyframes pulse 3s infinite;
-  animation: pulse 3s infinite;
+  -webkit-keyframes pulse 2s infinite;
+  animation: pulse 2s infinite;
   /*font-family: "Bungee Shade", cursive !important;*/
   font-family: "Bungee Outline", cursive !important;
   /*text-align: center;***********************************************************************************/

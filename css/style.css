@@ -302,8 +302,8 @@ body {
   letter-spacing: 1rem;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
-  font-family: "Bungee Shade", cursive !important;
-  /*font-family: "Bungee Outline", cursive !important;*/
+  /*font-family: "Bungee Shade", cursive !important;*/
+  font-family: "Bungee Outline", cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   

@@ -129,24 +129,6 @@
   }
 }
 
-@-webkit-keyframes pulse {
-  0% {
-    color: #ffffff;
-  }
-  100% {
-    color: #ff4500;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    color: #ffffff;
-  }
-  100% {
-    color: #ff4500;
-  }
-}
-
 *,
 *::after,
 *::before {
@@ -321,8 +303,6 @@ body {
   letter-spacing: 1rem;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
-  -webkit-keyframes pulse 2s infinite;
-  animation: pulse 2s infinite;
   /*font-family: "Bungee Shade", cursive !important;*/
   font-family: "Bungee Outline", cursive !important;
   /*text-align: center;***********************************************************************************/

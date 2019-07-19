@@ -1143,9 +1143,8 @@ ul {
   text-align: center;
   font-weight: 700;
   
-  -webkit-animation: fadeIn 5s ease-out;
-  animation: fadeIn 5s ease-out;
-  animation-delay: -4s;
+  -webkit-animation: fadeIn 6s ease-out;
+  animation: fadeIn 6s ease-out;
 }
 @media only screen and (max-width: 26em) {
   .desktop__footer {

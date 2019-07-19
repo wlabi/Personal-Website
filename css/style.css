@@ -129,6 +129,30 @@
   }
 }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 *,
 *::after,
 *::before {
@@ -1118,6 +1142,9 @@ ul {
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: 700;
+  
+  -webkit-animation: fadeIn 5s ease-out;
+  animation: fadeIn 5s ease-out;
 }
 @media only screen and (max-width: 26em) {
   .desktop__footer {

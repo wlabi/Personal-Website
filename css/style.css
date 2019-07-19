@@ -1145,6 +1145,7 @@ ul {
   
   -webkit-animation: fadeIn 5s ease-out;
   animation: fadeIn 5s ease-out;
+  animation-delay: 3s;
 }
 @media only screen and (max-width: 26em) {
   .desktop__footer {

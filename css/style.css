@@ -1137,8 +1137,8 @@ ul {
   text-align: center;
   font-weight: 700;
   
-  -webkit-animation: fadeIn 8s ease-out;
-  animation: fadeIn 8s ease-out;
+  -webkit-animation: fadeIn 8s linear;
+  animation: fadeIn 8s linear;
 }
 @media only screen and (max-width: 26em) {
   .desktop__footer {

@@ -323,8 +323,8 @@ body {
 .heading-primary--sub {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
-  font-size: 3rem;
-  letter-spacing: .5rem;
+  font-size: 2.8rem;
+  letter-spacing: .3rem;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;

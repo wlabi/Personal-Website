@@ -324,7 +324,7 @@ body {
   display: block;
   /*font-size: 3rem;***********************************************************************************/
   font-size: 2.8rem;
-  letter-spacing: .1rem;
+  /*letter-spacing: .1rem;*/
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;

@@ -220,7 +220,21 @@ body {
 }
 .heading-primary {
   /*font-weight: 700;*********************************************************************************/
-  font-family: "Vollkorn SC", serif !important;
+  /*font-family: "Vollkorn SC", serif !important;*/
+  
+  font-family: 'Josefin Slab', serif;
+  /*font-family: 'Unna', serif;
+  font-family: 'Oranienbaum', serif;
+  font-family: 'Coustard', serif;
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Cutive', serif;
+  font-family: 'Trocchi', serif;
+  font-family: 'Italiana', serif;
+  font-family: 'Rozha One', serif;
+  font-family: 'Antic Didone', serif;
+  font-family: 'Ramaraja', serif;
+  font-family: 'Song Myung', serif;*/
+  
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;

@@ -529,6 +529,7 @@ body {
   .btn-ghost:visited {
     -webkit-animation: none;
     animation: none;
+    margin-top: 5%;
   }
 }
 .btn-ghost:hover,

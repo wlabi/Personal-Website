@@ -345,7 +345,8 @@ body {
   font-family: "Bungee Outline", cursive !important;*/
   font-family: 'Londrina Shadow', cursive !important;
   /*text-align: center;***********************************************************************************/
-  color: #ffffff !important;
+  /*color: #ffffff !important;*/
+  color: #ff4500 !important;
   border: 0.1rem solid #ff4500;
   
   /*margin: 15rem 0 0 20rem;

@@ -346,6 +346,7 @@ body {
   font-family: 'Londrina Shadow', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
+  border: 0.1rem solid #ff4500;
   
   /*margin: 15rem 0 0 20rem;
   margin: 1.5% 0 0 5%;

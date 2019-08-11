@@ -345,7 +345,7 @@ body {
   font-family: 'Londrina Outline', cursive;
   font-family: 'Londrina Shadow', cursive;
   font-family: 'Londrina Sketch', cursive;*/
-  font-family: 'Londrina Sketch', cursive !important;
+  font-family: 'Londrina Outline', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   
@@ -1159,7 +1159,7 @@ ul {
 .desktop__footer {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  margin-bottom: 0;
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: 700;

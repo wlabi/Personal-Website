@@ -488,7 +488,7 @@ body {
   animation: moveInRight 5.5s ease-out;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-  font-size: 2rem;
+  font-size: 1.5rem;
   transition: all 0.2s;
   letter-spacing: 0.5rem;
   width: 12rem;

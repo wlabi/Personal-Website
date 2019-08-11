@@ -849,6 +849,7 @@ textarea {
   margin: 0 auto;
   text-align: center;
   font-weight: 300;
+  font-family: 'Loved by the King', cursive !important;
 }
 .popup__img {
   height: 100%;

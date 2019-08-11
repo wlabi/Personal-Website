@@ -1165,7 +1165,7 @@ ul {
   font-weight: 700;
   -webkit-animation: fadeIn 4s linear;
   animation: fadeIn 4s linear;
-  font-family: 'Loved by the King', cursive;
+  font-family: 'Loved by the King', cursive !important;
 }
 
 @media only screen and (max-width: 26em) {

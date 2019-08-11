@@ -341,8 +341,11 @@ body {
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;
-  font-family: "Bungee Outline", cursive !important;*/
-  font-family: 'Londrina Shadow', cursive !important;
+  font-family: "Bungee Outline", cursive !important;
+  font-family: 'Londrina Outline', cursive;
+  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Londrina Sketch', cursive;*/
+  font-family: 'Londrina Sketch', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   
@@ -1160,9 +1163,9 @@ ul {
   transform: translate(-50%, -50%);
   text-align: center;
   font-weight: 700;
-  
   -webkit-animation: fadeIn 4s linear;
   animation: fadeIn 4s linear;
+  font-family: 'Loved by the King', cursive;
 }
 
 @media only screen and (max-width: 26em) {

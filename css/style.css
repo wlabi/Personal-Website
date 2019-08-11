@@ -336,15 +336,15 @@ body {
 }
 .heading-primary--sub {
   display: block;
-  /*font-size: 3rem;***********************************************************************************/
-  font-size: 2.8rem;
+  font-size: 3rem;
+  /*font-size: 2.8rem;*/
   /*letter-spacing: .1rem;*/
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;
   font-family: "Bungee Outline", cursive !important;
   font-family: 'Londrina Shadow', cursive !important;*/
-  font-family: 'neoretrodrawregular' !important;
+  font-family: 'neoretrodrawregular', 'Londrina Shadow', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   

@@ -491,7 +491,8 @@ body {
   animation: moveInRight 5.5s ease-out;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
+  font-size: 2rem;  
   transition: all 0.2s;
   letter-spacing: 0.5rem;
   width: 12rem;
@@ -510,7 +511,7 @@ body {
     animation: none;
     display: block;
     width: 25rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 300 !important;
     margin: 0 auto;
     margin-bottom: 4rem;
@@ -1168,11 +1169,11 @@ ul {
   transform: translate(-50%, -50%);
   text-align: center;
   /*font-weight: 700;*/
-  font-weight: 400;
+  font-weight: 300;
   -webkit-animation: fadeIn 4s linear;
   animation: fadeIn 4s linear;
   font-family: 'Loved by the King', cursive !important;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 26em) {

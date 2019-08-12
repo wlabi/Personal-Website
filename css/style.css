@@ -1006,6 +1006,7 @@ textarea {
   width: 100%;
   text-align: center;
   font-weight: 300;
+  font-family: 'Loved by the King', cursive !important;
 }
 .input:checked + .label {
   color: #333333;

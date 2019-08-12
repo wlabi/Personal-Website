@@ -1026,6 +1026,7 @@ textarea {
   height: 30rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   font-weight: 300;
+  font-family: 'Loved by the King', cursive !important;
 }
 ul {
   list-style-type: square;

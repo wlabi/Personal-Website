@@ -492,7 +492,7 @@ body {
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
   /*font-size: 1.3rem;*/
-  font-size: 2rem;  
+  font-size: 1.6rem;  
   transition: all 0.2s;
   letter-spacing: 0.5rem;
   width: 12rem;
@@ -1169,11 +1169,11 @@ ul {
   transform: translate(-50%, -50%);
   text-align: center;
   /*font-weight: 700;*/
-  font-weight: 300;
+  font-weight: 400;
   -webkit-animation: fadeIn 4s linear;
   animation: fadeIn 4s linear;
   font-family: 'Loved by the King', cursive !important;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 @media only screen and (max-width: 26em) {

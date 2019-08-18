@@ -348,7 +348,7 @@ body {
   font-family: 'Londrina Outline', cursive;
   font-family: 'Londrina Shadow', cursive;
   font-family: 'Londrina Sketch', cursive;*/
-  font-family: 'Londrina Sketch', cursive !important;
+  font-family: 'Londrina Outline', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   
@@ -1180,9 +1180,15 @@ ul {
   font-size: 1.6rem;
 }
 
+@media only screen and (max-width: 75em) {
+  .desktop__footer {
+    font-family: "Lato", sans-serif;
+  }
+}
+
 @media only screen and (max-width: 26em) {
   .desktop__footer {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     width: 100%;
     text-align: center;
     color: #fff;

@@ -338,8 +338,9 @@ body {
   display: block;
   font-size: 2.9rem;
   letter-spacing: 0;
-  -webkit-word-spacing: normal;
   word-spacing: normal !important;
+  -webkit-word-spacing: normal;
+  -moz-word-spacing: normal;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;

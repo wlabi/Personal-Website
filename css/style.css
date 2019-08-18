@@ -348,7 +348,7 @@ body {
   font-family: 'Londrina Outline', cursive;
   font-family: 'Londrina Shadow', cursive;
   font-family: 'Londrina Sketch', cursive;*/
-  font-family: 'Londrina Outline', cursive !important;
+  font-family: 'Londrina Sketch', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   
@@ -388,7 +388,7 @@ body {
     margin-top: 0;
     left: 0;
     bottom: 0;
-    /*top: 6rem;*/
+    top: 6rem;
     
     font-family: "Lato", sans-serif !important;
     font-size: 3.5rem;

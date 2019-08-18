@@ -338,9 +338,9 @@ body {
   display: inline-block;
   font-size: 2.9rem;
   letter-spacing: 0;
-  word-spacing: .5em !important;
-  -webkit-word-spacing: normal;
-  -moz-word-spacing: normal;
+  word-spacing: .25em !important;
+  -webkit-word-spacing: .25em;
+  -moz-word-spacing: .25em;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;

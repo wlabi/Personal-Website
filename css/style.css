@@ -337,7 +337,7 @@ body {
 .heading-primary--sub {
   display: block;
   font-size: 2.9rem;
-  /*letter-spacing: .1rem;*/
+  letter-spacing: -1rem;
   -webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;
   /*font-family: "Bungee Shade", cursive !important;
@@ -345,7 +345,7 @@ body {
   font-family: 'Londrina Outline', cursive;
   font-family: 'Londrina Shadow', cursive;
   font-family: 'Londrina Sketch', cursive;*/
-  font-family: 'Londrina Outline', cursive !important;
+  font-family: 'Londrina Shadow', cursive !important;
   /*text-align: center;***********************************************************************************/
   color: #ffffff !important;
   

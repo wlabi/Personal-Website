@@ -371,11 +371,11 @@ body {
   bottom: -20%;
   
   /*******************************************************************************************************/
-  -webkit-writing-mode: unset !important;
-  -ms-writing-mode: unset !important;
-  writing-mode: unset !important;
-  text-orientation: unset !important;
-  -webkit-text-orientation: unset !important;
+  -webkit-writing-mode: none !important;
+  -ms-writing-mode: none !important;
+  writing-mode: none !important;
+  text-orientation: none !important;
+  -webkit-text-orientation: none !important;
   transform: rotate(-180deg);
   
 }

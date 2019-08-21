@@ -302,6 +302,14 @@ body {
   top: 16rem;
   left: 1%;
   bottom: -20%;
+  
+  /******************************************************************************************************/
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+  height: 100%;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

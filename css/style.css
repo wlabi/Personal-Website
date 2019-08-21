@@ -374,8 +374,6 @@ body {
   -webkit-writing-mode: sideways-lr !important;
   -ms-writing-mode: sideways-lr !important;
   writing-mode: sideways-lr !important;
-  text-orientation: sideways !important;
-  -webkit-text-orientation: sideways !important;
   
   
 }

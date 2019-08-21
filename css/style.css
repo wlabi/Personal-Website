@@ -371,12 +371,12 @@ body {
   bottom: -20%;
   
   /*******************************************************************************************************/
-  -webkit-writing-mode: vertical-tb !important;
-  -ms-writing-mode: vertical-tb !important;
-  writing-mode: vertical-tb !important;
-  /*text-orientation: mixed !important;
-  -webkit-text-orientation: mixed !important;*/
-  transform: rotate(-90deg);
+  -webkit-writing-mode: unset !important;
+  -ms-writing-mode: unset !important;
+  writing-mode: unset !important;
+  text-orientation: unset !important;
+  -webkit-text-orientation: unset !important;
+  transform: rotate(-180deg);
   
 }
 

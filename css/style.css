@@ -374,7 +374,8 @@ body {
   -webkit-writing-mode: vertical-lr !important;
   -ms-writing-mode: vertical-lr !important;
   writing-mode: vertical-lr !important;
-  
+  text-orientation: mixed !important;
+  -webkit-text-orientation: mixed !important;
   
 }
 

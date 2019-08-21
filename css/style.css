@@ -371,9 +371,9 @@ body {
   bottom: -20%;
   
   /*******************************************************************************************************/
-  -webkit-writing-mode: sideways-lr !important;
-  -ms-writing-mode: sideways-lr !important;
-  writing-mode: sideways-lr !important;
+  -webkit-writing-mode: vertical-lr !important;
+  -ms-writing-mode: vertical-lr !important;
+  writing-mode: vertical-lr !important;
   
   
 }

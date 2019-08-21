@@ -1181,7 +1181,7 @@ ul {
 }
 .desktop__text-box {
   position: absolute;
-  /*top: 30%;*/
+  top: 30%;
   height: 100vh; /***************************************/
   left: 50%;
   transform: translate(-50%, -50%);

@@ -369,15 +369,6 @@ body {
   top: 16rem;
   left: 7%;
   bottom: -20%;
-  
-  /*******************************************************************************************************/
-  -webkit-writing-mode: none !important;
-  -ms-writing-mode: none !important;
-  writing-mode: none !important;
-  text-orientation: none !important;
-  -webkit-text-orientation: none !important;
-  transform: rotate(-180deg);
-  
 }
 
 @media only screen and (max-width: 26em) {

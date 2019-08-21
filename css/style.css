@@ -242,13 +242,13 @@ body {
   color: #ffffff !important;
   
   /******************************************************************************************************/
+  /*
   -webkit-writing-mode: vertical-rl;
-  /*-ms-writing-mode: tb-rl;*****************************************************************************/
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   text-orientation: upright;
   -webkit-text-orientation: upright;
-  height: 100%;
+  height: 100%;*/
   /******************************************************************************************************/
 
 
@@ -370,11 +370,6 @@ body {
   left: 7%;
   bottom: -20%;
   
-  -webkit-writing-mode: unset;
-  -ms-writing-mode: unset;
-  writing-mode: unset;
-  text-orientation: unset;
-  -webkit-text-orientation: unset;
 }
 
 @media only screen and (max-width: 26em) {

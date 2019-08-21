@@ -242,12 +242,11 @@ body {
   color: #ffffff !important;
   
   /******************************************************************************************************/
-  /*
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  -webkit-text-orientation: upright;*/
+  -webkit-text-orientation: upright;
   height: 100%;
   /******************************************************************************************************/
 
@@ -302,14 +301,6 @@ body {
   top: 16rem;
   left: 1%;
   bottom: -20%;
-  
-  /******************************************************************************************************/
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  -webkit-text-orientation: upright;
-  height: 100%;
 
 }
 @media only screen and (max-width: 26em) {
@@ -375,9 +366,7 @@ body {
   margin: 1.5% 0 0 5%;
   margin: 5% auto 0% auto;********************************************************************************/
   position: absolute;
-  /*top: 16rem;*/
-  /*******************************************************************************************************/
-  top: 30%;
+  top: 16rem;
   left: 7%;
   bottom: -20%;
   
@@ -1185,7 +1174,6 @@ ul {
 .desktop__text-box {
   position: absolute;
   top: 30%;
-  height: 100vh; /***************************************/
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

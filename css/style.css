@@ -382,7 +382,7 @@ body {
   left: 7%;
   bottom: -20%;
   
-  transform: rotate(180deg);
+  transform: rotate(270deg);
 }
 
 @media only screen and (max-width: 26em) {

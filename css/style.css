@@ -371,9 +371,9 @@ body {
   bottom: -20%;
   
   /*******************************************************************************************************/
-  -webkit-writing-mode: horizontal-tb !important;
-  -ms-writing-mode: horizontal-tb !important;
-  writing-mode: horizontal-tb !important;
+  -webkit-writing-mode: vertical-tb !important;
+  -ms-writing-mode: vertical-tb !important;
+  writing-mode: vertical-tb !important;
   /*text-orientation: mixed !important;
   -webkit-text-orientation: mixed !important;*/
   transform: rotate(-180deg);

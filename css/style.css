@@ -376,7 +376,7 @@ body {
   writing-mode: vertical-rl !important;
   /*text-orientation: mixed !important;
   -webkit-text-orientation: mixed !important;*/
-  transform: rotate(-45deg);
+  transform: rotate(-180deg);
   
 }
 

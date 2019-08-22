@@ -375,7 +375,7 @@ body {
   writing-mode: horizontal-tb;
   text-orientation: upright;
   -webkit-text-orientation: upright;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
   
 }
 

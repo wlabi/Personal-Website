@@ -370,6 +370,12 @@ body {
   left: 7%;
   bottom: -20%;
   
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  -webkit-text-orientation: sideways;
+  
 }
 
 @media only screen and (max-width: 26em) {

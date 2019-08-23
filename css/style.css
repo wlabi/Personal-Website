@@ -370,6 +370,8 @@ body {
   left: 7%;
   bottom: -20%;
   
+  /************************************************************************************************************/
+
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
@@ -414,6 +416,14 @@ body {
     margin-bottom: 2rem;
     letter-spacing: 0.5rem;
     font-weight: 300;
+    /************************************************************************************************************/
+    -webkit-writing-mode: unset;
+    -ms-writing-mode: unset;
+    writing-mode: unset;
+    text-orientation: unset;
+    -webkit-text-orientation: unset;
+
+    transform: rotate(-180deg);
   }
 }
 @media only screen and (max-width: 75em) {

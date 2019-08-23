@@ -373,8 +373,10 @@ body {
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
-  text-orientation: sideways-right;
-  -webkit-text-orientation: sideways-right;
+  text-orientation: sideways;
+  -webkit-text-orientation: sideways;
+  
+  transform: rotate(180deg);
   
 }
 

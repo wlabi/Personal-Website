@@ -302,10 +302,6 @@ body {
   left: 1%;
   bottom: -20%;
 
-  /**********************************************************************************************************/
-  word-spacing: normal !important;
-  -webkit-word-spacing: normal;
-  -moz-word-spacing: normal;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

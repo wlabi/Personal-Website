@@ -303,9 +303,9 @@ body {
   bottom: -20%;
 
   /**********************************************************************************************************/
-  word-spacing: .25em !important;
-  -webkit-word-spacing: .25em;
-  -moz-word-spacing: .25em;
+  word-spacing: .1em !important;
+  -webkit-word-spacing: .1em;
+  -moz-word-spacing: .1em;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

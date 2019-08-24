@@ -348,8 +348,8 @@ body {
   /*-webkit-animation: moveInBottom 5s ease-out;
   animation: moveInBottom 5s ease-out;*/
   
-  -webkit-animation: fadeIn 4s linear;
-  animation: fadeIn 4s linear;
+  -webkit-animation: fadeIn 5s linear;
+  animation: fadeIn 5s linear;
   
   /*font-family: "Bungee Shade", cursive !important;
   font-family: "Bungee Outline", cursive !important;
@@ -527,8 +527,8 @@ body {
   margin: 0 1.2rem;
   /*border: 0.1rem solid #333333;
   border: 0.1rem solid #ffffff;*****************************************************************************/
-  -webkit-animation: moveInRight 5.5s ease-out;
-  animation: moveInRight 5.5s ease-out;
+  -webkit-animation: moveInRight 7s ease-out;
+  animation: moveInRight 7s ease-out;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
   /*font-size: 1.3rem;*/
@@ -1211,8 +1211,8 @@ ul {
   text-align: center;
   /*font-weight: 700;*/
   font-weight: 400;
-  -webkit-animation: fadeIn 4s linear;
-  animation: fadeIn 4s linear;
+  -webkit-animation: fadeIn 9s linear;
+  animation: fadeIn 9s linear;
   font-family: 'Loved by the King', cursive !important;
   font-size: 1.6rem;
 }

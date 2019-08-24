@@ -1215,8 +1215,8 @@ ul {
   text-align: center;
   /*font-weight: 700;*/
   font-weight: 400;
-  -webkit-animation: fadeIn 7s linear;
-  animation: fadeIn 7s linear;
+  -webkit-animation: fadeIn 6s linear;
+  animation: fadeIn 6s linear;
   font-family: 'Loved by the King', cursive !important;
   font-size: 1.6rem;
 }

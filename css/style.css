@@ -434,7 +434,8 @@ body {
 .popup__heading {
   /*font-size: 4rem;*/
   font-size: 3rem;
-  letter-spacing: 0.5rem;
+  /*letter-spacing: 0.5rem;*/
+  letter-spacing: 0.25rem;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
@@ -448,7 +449,6 @@ body {
   /*font-family: 'Bungee Outline', cursive !important;
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Bungee Shade', cursive;*/
-  border: 0.1rem solid #ffffff;
 
 }
 @media only screen and (max-width: 21em) {

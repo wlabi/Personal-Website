@@ -432,7 +432,8 @@ body {
   }
 }
 .popup__heading {
-  font-size: 4rem;
+  /*font-size: 4rem;*/
+  font-size: 2rem;
   letter-spacing: 0.5rem;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -443,8 +444,9 @@ body {
   top: 1rem;
   left: -0.5rem;
   text-transform: uppercase;
-  font-family: 'Bungee Outline', cursive !important;
-  /*font-family: 'Bungee Hairline', cursive;
+  font-family: 'Loved by the King', cursive !important;
+  /*font-family: 'Bungee Outline', cursive !important;
+  font-family: 'Bungee Hairline', cursive;
   font-family: 'Bungee Shade', cursive;*/
 
 }

@@ -538,7 +538,9 @@ body {
   width: 12rem;
   font-weight: 400 !important;
   border-radius: 0.5rem;
-  font-family: 'Loved by the King', cursive !important;
+  /*font-family: 'Loved by the King', cursive !important;*/
+  font-family: 'Megrim', cursive !important;
+
 }
 
 @media only screen and (max-width: 26em) {
@@ -1213,7 +1215,8 @@ ul {
   font-weight: 400;
   -webkit-animation: fadeIn 5s linear;
   animation: fadeIn 5s linear;
-  font-family: 'Loved by the King', cursive !important;
+  /*font-family: 'Loved by the King', cursive !important;*/
+  font-family: 'Megrim', cursive !important;
   font-size: 1.6rem;
 }
 

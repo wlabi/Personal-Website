@@ -452,7 +452,9 @@ body {
   top: 1rem;
   left: -0.5rem;
   text-transform: uppercase;
-  font-family: "Bungee Shade", cursive !important;
+  /*font-family: "Bungee Shade", cursive !important;*/
+  font-family: 'Faster One', cursive !important;
+
 }
 @media only screen and (max-width: 21em) {
   .popup__heading {

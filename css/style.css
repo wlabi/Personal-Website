@@ -448,6 +448,7 @@ body {
   /*font-family: 'Bungee Outline', cursive !important;
   font-family: 'Bungee Hairline', cursive;
   font-family: 'Bungee Shade', cursive;*/
+  border: 0.3rem solid #ffffff;
 
 }
 @media only screen and (max-width: 21em) {

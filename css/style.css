@@ -444,8 +444,8 @@ body {
   left: -0.5rem;
   text-transform: uppercase;
   /*font-family: 'Bungee Outline', cursive;
-  font-family: 'Bungee Shade', cursive;*/
-  font-family: 'Bungee Hairline', cursive !important;
+  font-family: 'Bungee Hairline', cursive;*/
+  font-family: 'Bungee Shade', cursive !important;
 
 }
 @media only screen and (max-width: 21em) {

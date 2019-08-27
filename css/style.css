@@ -435,7 +435,7 @@ body {
   /*font-size: 4rem;*/
   font-size: 3rem;
   /*letter-spacing: 0.5rem;*/
-  letter-spacing: normal !important;
+  letter-spacing: -1.5rem !important;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;

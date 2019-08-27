@@ -435,7 +435,7 @@ body {
   /*font-size: 4rem;*/
   font-size: 3rem;
   /*letter-spacing: 0.5rem;*/
-  letter-spacing: -.5rem !important;
+  letter-spacing: -1rem !important;
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
@@ -443,9 +443,7 @@ body {
   -webkit-text-orientation: upright;
   position: absolute;
   top: 1rem;
-  /*left: -0.5rem;*/
-  left: 0;
-  border: 0.1rem solid #ffffff;
+  left: -0.5rem;
   text-transform: uppercase;
   font-family: 'Loved by the King', cursive !important;
   /*font-family: 'Bungee Outline', cursive !important;

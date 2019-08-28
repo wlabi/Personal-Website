@@ -834,8 +834,7 @@ textarea {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    margin-top: -1rem;
-    font-size: 65%;
+    /*margin-top: -1rem;*/
   }
 }
 

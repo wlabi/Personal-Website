@@ -827,6 +827,18 @@ textarea {
   font-weight: 300;
   font-family: 'Loved by the King', cursive !important;
 }
+
+@media only screen and (max-width: 75em) {
+  .popup__about {
+    width: 80%;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    margin-top: -1rem;
+    font-size: 5rem;
+  }
+}
+
 @media only screen and (max-width: 56.25em) {
   .popup__about {
     width: 80%;

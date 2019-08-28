@@ -848,7 +848,8 @@ textarea {
     column-count: 2;*/
     
     column-count: unset;    
-    margin-top: -1rem;
+    /*margin-top: -1rem;*/
+    margin-top: 20rem;
     /*font-size: 2rem;*/
     
     font-size: 5rem;

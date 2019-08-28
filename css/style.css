@@ -793,7 +793,6 @@ textarea {
   color: #fff;
   font-size: 2rem;
   border-radius: 0.5rem;
-  overflow: scroll; /***********************************************************************************************/
 }
 @media only screen and (max-width: 75em) {
   .popup__inner {
@@ -912,6 +911,7 @@ textarea {
 .popup__content {
   display: table-cell;
   vertical-align: middle;
+  overflow: scroll; /***********************************************************************************************/
 }
 .popup__portfolio {
   width: 75%;

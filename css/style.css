@@ -969,7 +969,7 @@ textarea {
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    /*display: none;*/
   }
 }
 .popup__img-caption {

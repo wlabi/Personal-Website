@@ -808,6 +808,7 @@ textarea {
 }
 .popup__about {
   width: 75%;
+  height: 75%;
   margin: 0 auto;
   -webkit-column-count: 3;
   -moz-column-count: 3;

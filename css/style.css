@@ -861,7 +861,9 @@ textarea {
     -webkit-column-count: unset;
     -moz-column-count: unset;
     column-count: unset;
-    font-size: 3rem;
+    /*************************************************************************************************/
+    /*font-size: 3rem;*/
+    font-size: 6rem;
     font-weight: 300;
   }
 }

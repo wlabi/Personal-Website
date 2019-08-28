@@ -917,7 +917,7 @@ textarea {
 @media only screen and (max-width: 26em) {
   .popup__img-shape {
     margin-top: 6rem !important;
-    display: none;
+    /*display: none;*/
   }
 }
 @media only screen and (max-width: 21em) {

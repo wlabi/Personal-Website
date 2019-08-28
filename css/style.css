@@ -853,8 +853,8 @@ textarea {
     /*font-size: 2rem;*/
     
     font-size: 5rem;
-    bottom: 15%;
-    top: 40%;
+    margin-bottom: 15%;
+    margin-top: 40%;
     overflow: auto; /***********************************************************************************************/
   }
 }

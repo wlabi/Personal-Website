@@ -773,6 +773,7 @@ textarea {
   visibility: hidden;
   transition: all 0.3;
   z-index: 1;
+  overflow: scroll; /***********************************************************************************************/
 }
 .popup__inner {
   position: absolute;
@@ -1148,8 +1149,6 @@ ul {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  height: 80%;
-  overflow: scroll; /***********************************************************************************************/
 }
 .row:not(:last-child) {
   margin-bottom: 8rem;

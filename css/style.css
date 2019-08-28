@@ -1148,6 +1148,7 @@ ul {
 .row {
   max-width: 114rem;
   margin: 0 auto;
+  overflow: scroll; /***********************************************************************************************/
 }
 .row:not(:last-child) {
   margin-bottom: 8rem;

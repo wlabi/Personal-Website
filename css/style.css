@@ -828,6 +828,7 @@ textarea {
 @media only screen and (max-width: 56.25em) {
   .popup__about {
     width: 80%;
+    /******************************************************************************************************/
     /*-webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;*/

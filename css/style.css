@@ -849,12 +849,11 @@ textarea {
     
     column-count: unset;    
     /*margin-top: -1rem;*/
-    margin-top: 30rem;
+    margin-top: 40rem;
     /*font-size: 2rem;*/
     
     font-size: 5rem;
     height: 80%;
-    overflow: scroll !important;
   }
 }
 @media only screen and (max-width: 43.75em) {
@@ -969,7 +968,6 @@ textarea {
     position: absolute;
     top: 15%;
     left: 50%;
-    margin: 15%; /***************************************************************************************/
     transform: translate(-50%, -50%);
     /*display: none;*/
   }

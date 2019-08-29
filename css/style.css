@@ -855,7 +855,8 @@ textarea {
     font-size: 5rem;
     margin-bottom: 15%;
     /*top: 40%;*/
-    margin-top: 20% !important;
+    top: 40% !important;
+    position: absolute;
     overflow: auto; /***********************************************************************************************/
   }
 }

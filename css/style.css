@@ -853,9 +853,9 @@ textarea {
     /*font-size: 2rem;*/
     
     font-size: 5rem;
-    bottom: 15%;
+    margin-bottom: 15%;
     /*top: 40%;*/
-    top: 40rem;
+    margin-top: 20rem;
     overflow: auto; /***********************************************************************************************/
   }
 }

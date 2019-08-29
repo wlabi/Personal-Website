@@ -706,7 +706,7 @@ textarea {
 /***************************************************************************************************/
 @media only screen and (max-width: 75em) {
   .social {
-   margin-top: 15rem;
+   margin-top: 5rem;
   }
 .social-links li {
   display: inline-block;

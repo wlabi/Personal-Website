@@ -933,8 +933,12 @@ textarea {
 }
 .popup__img-shape {
   display: block;
-  width: 19rem;
-  height: 19rem;
+  /*width: 19rem;
+  height: 19rem;*/
+  
+  width: auto;
+  height: auto;
+  
   margin: 0 auto !important;
   overflow: hidden;
   border-radius: 0.5rem;

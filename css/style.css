@@ -703,6 +703,11 @@ textarea {
   bottom: 1.5rem;
   margin-top: 15rem;
 }
+/***************************************************************************************************/
+@media only screen and (max-width: 75em) {
+  .social {
+   margin-top: 15rem;
+  }
 .social-links li {
   display: inline-block;
   font-size: 2.5rem;

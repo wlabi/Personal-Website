@@ -578,6 +578,9 @@ body {
   .btn-ghost:visited {
     -webkit-animation: none;
     animation: none;
+    
+    /**********************************************************************************************************/
+    -webkit-transform: translateZ(0);
   }
 }
 .btn-ghost:hover,

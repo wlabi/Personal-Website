@@ -701,7 +701,7 @@ textarea {
   position: relative;
   text-align: center;
   bottom: 1.5rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .social-links li {
   display: inline-block;
@@ -860,7 +860,7 @@ textarea {
     height: 70rem;
     /*bottom: 20rem !important;*/
     position: relative;
-    overflow: auto; /***********************************************************************************************/
+    overflow: scroll; /***********************************************************************************************/
   }
 }
 @media only screen and (max-width: 43.75em) {

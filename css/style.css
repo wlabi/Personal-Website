@@ -856,7 +856,7 @@ textarea {
     margin-bottom: 15%;
     /*top: 40%;*/
     top: 30rem !important;
-    margin-bottom: 20rem !important;
+    padding-bottom: 20rem !important;
     position: relative;
     overflow: auto; /***********************************************************************************************/
   }

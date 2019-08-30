@@ -985,7 +985,7 @@ textarea {
 @media only screen and (max-width: 56.25em) {
   .popup__img-shape {
     position: absolute;
-    top: 15% !important;
+    /*top: 15% !important;*/
     left: 50%;
     transform: translate(-50%, -50%);
     /*display: none;*/

@@ -866,7 +866,7 @@ textarea {
     
     font-size: 5rem;
     /*margin-bottom: 15%;*/
-    top: 30%;
+    /*top: 30%;*/
     /*top: 10rem !important;*****************************************************************************/
     height: 80vh;
     /*bottom: 20rem !important;*/
@@ -902,6 +902,8 @@ textarea {
     column-count: unset;
     /*************************************************************************************************/
     /*font-size: 3rem;*/
+    top: 10vh;
+    height: 80vh;
     font-size: 5rem;
     font-weight: 300;
   }
@@ -955,8 +957,8 @@ textarea {
 }
 @media only screen and (max-width: 26em) {
   .popup__img-shape {
-    margin-top: 6rem !important;
-    display: none;
+    /*margin-top: 6rem !important;
+    display: none;*/
   }
 }
 @media only screen and (max-width: 21em) {

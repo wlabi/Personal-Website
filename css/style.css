@@ -864,7 +864,7 @@ textarea {
     /*margin-top: 40rem;*/
     /*font-size: 2rem;*/
     
-    font-size: 5rem;
+    font-size: 4rem;
     /*margin-bottom: 15%;*/
     /*top: 30%;*/
     /*top: 10rem !important;*****************************************************************************/
@@ -964,7 +964,7 @@ textarea {
   margin: 0 auto !important;
   overflow: hidden;
   border-radius: 0.5rem;
-  margin-top: 1rem !important;
+  /*margin-top: 1rem !important;*/
   margin-bottom: 2rem !important;
 }
 /*

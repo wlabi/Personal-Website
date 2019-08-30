@@ -951,6 +951,7 @@ textarea {
   overflow: hidden;
   border-radius: 0.5rem;
   margin-top: 1rem !important;
+  margin-bottom: 2rem !important;  /****************************************************/
 }
 @media only screen and (max-width: 26em) {
   .popup__img-shape {

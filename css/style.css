@@ -878,31 +878,35 @@ textarea {
 @media only screen and (max-width: 43.75em) {
   .popup__about {
     width: 80%;
+    /*
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+    */
+    column-count: unset;
     margin-top: -1rem;
     font-size: 2rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .popup__about {
+    /*
     width: 80%;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     margin-top: -1rem;
+    */
     font-size: 2.5rem;
   }
 }
 @media only screen and (max-width: 26em) {
   .popup__about {
-    width: 80%;
+    /*width: 80%;
     -webkit-column-count: unset;
     -moz-column-count: unset;
     column-count: unset;
-    /*************************************************************************************************/
-    /*font-size: 3rem;*/
+    font-size: 3rem;*/
     top: 10vh;
     height: 80vh;
     font-size: 5rem;

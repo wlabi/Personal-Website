@@ -946,7 +946,7 @@ textarea {
   backface-visibility: hidden;
   transform: translateY(-2rem) translateX(2rem) scale(1.4);
 }
-.popup__img-shape {
+.popup__img-shape1 {
   display: block;
   width: 19rem;
   height: 19rem;
@@ -956,21 +956,21 @@ textarea {
   margin-top: 1rem !important;
   margin-bottom: 2rem !important;  /****************************************************/
 }
-/*@media only screen and (max-width: 26em) {
-  .popup__img-shape {
+@media only screen and (max-width: 26em) {
+  .popup__img-shape1 {
     margin-top: 6rem !important;
     display: none;
   }
 }
 @media only screen and (max-width: 21em) {
-  .popup__img-shape {
+  .popup__img-shape1 {
     width: 25rem;
     height: 25rem;
     display: none;
   }
 }
 @media only screen and (max-width: 37.5em) {
-  .popup__img-shape {
+  .popup__img-shape1 {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -979,14 +979,14 @@ textarea {
   }
 }
 @media only screen and (max-width: 43.75em) {
-  .popup__img-shape {
+  .popup__img-shape1 {
     width: 25rem;
     height: 25rem;
     display: none;
   }
-}*/
+}
 @media only screen and (max-width: 56.25em) {
-  .popup__img-shape {
+  .popup__img-shape1 {
     /*position: absolute;*/
     /*top: 15% !important;*/
     /*left: 50%;

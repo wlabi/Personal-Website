@@ -730,8 +730,8 @@ textarea {
 
 .ion-logo-twitter {
   color: #fff;
-  margin-right: 1rem;
-  /*margin-left: 1rem;*/
+  margin-right: 3rem;
+  margin-left: 0;
 }
 
 .ion-logo-twitter:hover {
@@ -745,8 +745,8 @@ textarea {
 }
 .ion-logo-facebook {
   color: #fff;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 .ion-logo-facebook:hover {
   color: #3b5998;
@@ -759,8 +759,8 @@ textarea {
 }
 .ion-logo-linkedin {
   color: #fff;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 0;
+  margin-left: 3rem;
 }
 .ion-logo-linkedin:hover {
   color: #007bb5;

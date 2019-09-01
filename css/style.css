@@ -731,7 +731,7 @@ textarea {
 .ion-logo-twitter {
   color: #fff;
   margin-right: 1rem;
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
 }
 
 .ion-logo-twitter:hover {

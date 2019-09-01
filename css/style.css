@@ -730,8 +730,9 @@ textarea {
 
 .ion-logo-twitter {
   color: #fff;
-  margin-right: 2rem;
-  margin-left: 0;
+  /*margin-right: auto;
+  margin-left: auto*/;
+  margin: auto;
 }
 
 .ion-logo-twitter:hover {
@@ -745,8 +746,9 @@ textarea {
 }
 .ion-logo-facebook {
   color: #fff;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  /*margin-right: 2rem;
+  margin-left: 2rem;*/
+  margin: auto;
 }
 .ion-logo-facebook:hover {
   color: #3b5998;
@@ -759,8 +761,9 @@ textarea {
 }
 .ion-logo-linkedin {
   color: #fff;
-  margin-right: 0;
-  margin-left: 2rem;
+  /*margin-right: 0;
+  margin-left: 2rem;*/
+  margin: auto;
 }
 .ion-logo-linkedin:hover {
   color: #007bb5;

@@ -727,13 +727,13 @@ textarea {
     display: inline-block;
   }
 }
-/*
+
 .ion-logo-twitter {
   color: #fff;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
-*/
+
 .ion-logo-twitter:hover {
   color: #55acee;
 }

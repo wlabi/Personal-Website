@@ -897,8 +897,11 @@ textarea {
     /*margin-bottom: 15%;*/
     /*top: 30%;*/
     /*top: 10rem !important;*****************************************************************************/
-    height: 75vh;
-    top: 5vh;
+    /*height: 75vh;
+    top: 5vh;*/
+    
+    height: 80vh;
+    
     /*bottom: 20rem !important;*/
     position: relative;
     overflow: scroll; /***********************************************************************************************/
@@ -1053,7 +1056,6 @@ textarea {
     /*left: 50%;
     transform: translate(-50%, -50%);*/
     /*display: none;*/
-    margin-top: 0 !important;
     margin: 0 auto;
     display: none;
   }

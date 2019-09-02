@@ -929,7 +929,7 @@ textarea {
     column-count: 2;
     margin-top: -1rem;
     */
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 @media only screen and (max-width: 26em) {

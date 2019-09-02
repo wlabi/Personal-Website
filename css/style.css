@@ -1053,6 +1053,7 @@ textarea {
     /*left: 50%;
     transform: translate(-50%, -50%);*/
     /*display: none;*/
+    margin-top: 0 !important;
     margin: 0 auto;
     display: none;
   }
@@ -1064,7 +1065,7 @@ textarea {
     /*top: 15% !important;*/
     /*left: 50%;
     transform: translate(-50%, -50%);*/
-    /*display: none;*/
+    /*display: none;
     margin: 0 auto;
     display: unset;
   }

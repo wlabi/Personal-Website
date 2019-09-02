@@ -882,7 +882,7 @@ textarea {
 
 @media only screen and (max-width: 56.25em) {
   .popup__about {
-    width: 60%;
+    width: 80%;
     /******************************************************************************************************/
     /*-webkit-column-count: 2;
     -moz-column-count: 2;
@@ -917,7 +917,7 @@ textarea {
     */
     column-count: unset;
     margin-top: -1rem;
-    font-size: 2rem;
+    font-size: 5rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -929,7 +929,7 @@ textarea {
     column-count: 2;
     margin-top: -1rem;
     */
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 26em) {

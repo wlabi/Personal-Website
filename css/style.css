@@ -945,6 +945,7 @@ textarea {
     /*font-weight: 300;*/
   }
 }
+/*
 @media only screen and (max-width: 21em) {
   .popup__about {
     width: 80%;
@@ -954,6 +955,7 @@ textarea {
     margin-top: -3rem;
   }
 }
+*/
 .popup__notification {
   position: absolute;
   top: 2rem;

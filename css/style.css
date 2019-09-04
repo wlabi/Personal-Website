@@ -520,6 +520,8 @@ body {
 .btn-ghost,
 .btn-ghost:link,
 .btn-ghost:visited {
+  position: relative;
+  top: 50%
   /*text-transform: uppercase;*/
   text-decoration: none;
   padding: 0.5rem;

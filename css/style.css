@@ -405,16 +405,16 @@ body {
     -webkit-animation: none;
     animation: none;
     position: relative;
-    margin-top: 0;
+    margin-top: 5%;
     left: 0;
     bottom: 0;
-    top: 6rem;
+    /*top: 6rem;*/
     
     font-family: "Lato", sans-serif !important;
     font-size: 3.5rem;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
     letter-spacing: 0.5rem;
-    font-weight: 300;
+    font-weight: 400;
     /************************************************************************************************************/
     -webkit-writing-mode: unset;
     -ms-writing-mode: unset;

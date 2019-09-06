@@ -261,6 +261,7 @@ body {
     text-orientation: unset;
     -webkit-text-orientation: unset;
     /*margin-top: 0;*/
+    top: 20%;
     
     color: #ffffff !important;
     font-family: "Lato", sans-serif !important;

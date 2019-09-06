@@ -407,7 +407,7 @@ body {
     position: relative;
     margin-top: 2em;
     left: 0;
-    bottom: 0;
+    /*bottom: 0;*/
     /*top: 6rem;*/
     
     font-family: "Lato", sans-serif !important;

@@ -1374,5 +1374,6 @@ ul {
   #controls {
   position: relative;
   right: 0;
+  top: 5em;
   }
 }

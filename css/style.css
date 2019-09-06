@@ -326,7 +326,8 @@ body {
     /***************************************************************************************************/
     position: relative;
     /*margin: 0 auto;*/
-    top: -8rem;
+    /*top: -8rem;*/
+    top: -10%;
     letter-spacing: 2rem;
     font-size: 7rem;
   }

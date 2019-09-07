@@ -1218,7 +1218,7 @@ ul {
 
 .gradient {
   height: 100vh;
-  background-image: linear-gradient(rgba(1, 50, 64, 0.8));
+  background: linear-gradient(rgba(1, 50, 64, 0.8));
   /*background-size: cover;
   background-position: top;
   position: relative;

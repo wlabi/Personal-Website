@@ -517,6 +517,7 @@ video {
   width: 100%;
   z-index: -1;
   overflow: hidden;
+  object-fit: cover;
 }
 
 @media only screen and (min-width: 112.5em) {
@@ -1233,7 +1234,6 @@ ul {
 .wrapper2 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
 }
 
 .gradient {

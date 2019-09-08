@@ -1234,8 +1234,7 @@ ul {
 
 .wrapper2 {
   position: absolute;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
 }
 
 .gradient {

@@ -1312,6 +1312,8 @@ ul {
 .desktop {
   position: absolute;
   width: 100%;
+  too: 0;
+  left: 0;
 }
 @media only screen and (min-width: 112.5em) {
   .desktop {

@@ -248,6 +248,7 @@ body {
   text-orientation: upright;
   -webkit-text-orientation: upright;
   height: 100%;
+  z-index: 10
   /******************************************************************************************************/
 
 

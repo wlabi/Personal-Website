@@ -1245,13 +1245,13 @@ ul {
   width: 100vw;
   top: 0;
   left: 0;
-  /*background-image: linear-gradient(to top, rgba(1, 50, 64, 0.8));*/
+  /*background-image: linear-gradient(to top, rgba(1, 50, 64, 0.8));
   background-size: cover;
   background-position: top;
   position: relative;
   -o-object-fit: cover;
   object-fit: cover;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 
 @media only screen and (max-width: 26em) {

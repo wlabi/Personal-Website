@@ -497,7 +497,7 @@ body {
 .desktop__footer {
   font-family: "Comfortaa", cursive !important;
 }
-/*
+
 .bg-video {
   position: absolute;
   top: 0;
@@ -507,7 +507,7 @@ body {
   z-index: -1;
   overflow: hidden;
 }
-*/
+
 
 video {
   position: absolute;

@@ -508,7 +508,7 @@ body {
   overflow: hidden;
 }
 
-
+/*
 video {
   position: absolute;
   top: 0;
@@ -519,6 +519,7 @@ video {
   overflow: hidden;
   object-fit: cover;
 }
+*/
 
 @media only screen and (min-width: 112.5em) {
   .bg-video {

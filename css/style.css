@@ -846,14 +846,13 @@ textarea {
   background: linear-gradient(to bottom, #1CB5E0, #000046);
   background: linear-gradient(to top, #209077 0%, #1ae28a 100%);
   background: #209077;*/
-  background: #fff;
+  background-color: rgba(1, 50, 64, 0.8);
   display: table;
   overflow: hidden;
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.5s 0.1s;
-  /*color: #fff;*/
-  color: #333333;
+  color: #fff;
   font-size: 2rem;
   border-radius: 1rem;
 }

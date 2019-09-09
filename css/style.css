@@ -1316,8 +1316,10 @@ ul {
 }
 @media only screen and (min-width: 112.5em) {
   .desktop {
-    height: 90%;
-    width: 90%;
+    /*height: 90%;
+    width: 90%;*/
+    height: 100vh;
+    width: 100vw;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;

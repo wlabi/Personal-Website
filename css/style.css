@@ -1367,8 +1367,7 @@ ul {
   bottom: 0;
   transform: translate(-50%, -50%);
   text-align: center;
-  /*font-weight: 700;
-  font-weight: 400;*/
+  font-weight: 300;
   -webkit-animation: fadeIn 5s linear;
   animation: fadeIn 5s linear;
   font-family: 'Loved by the King', cursive !important;
@@ -1384,7 +1383,7 @@ ul {
 
 @media only screen and (max-width: 26em) {
   .desktop__footer {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100%;
     text-align: center;
     color: #fff;

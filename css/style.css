@@ -1374,13 +1374,12 @@ ul {
   bottom: 0;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-weight: 300;
+  font-weight: 200;
   -webkit-animation: fadeIn 5s linear;
   animation: fadeIn 5s linear;
   font-family: 'Loved by the King', cursive !important;
   font-size: 1.6rem;
   z-index: 10;
-  letter-spacing: normal;
 }
 
 @media only screen and (max-width: 56.25em) {

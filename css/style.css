@@ -1240,7 +1240,7 @@ ul {
 }
 
 .gradient {
-  background: radial-gradient(to bottom, #1CB5E0 0.9, #000046 0.9);
+  background: radial-gradient(#1CB5E0, #000046);
   /*background-color: rgba(1, 50, 64, 0.8);*/
   z-index: 1;
   height: 100vh;

@@ -1380,7 +1380,7 @@ ul {
   font-family: 'Loved by the King', cursive !important;
   font-size: 1.6rem;
   z-index: 10;
-  letter-spacing: 0.5rem;
+  letter-spacing: normal;
 }
 
 @media only screen and (max-width: 56.25em) {

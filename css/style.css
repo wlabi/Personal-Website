@@ -1384,7 +1384,7 @@ ul {
 
 @media only screen and (max-width: 26em) {
   .desktop__footer {
-    font-size: 2rem;
+    font-size: 3rem;
     width: 100%;
     text-align: center;
     color: #fff;

@@ -1321,8 +1321,8 @@ ul {
     height: 80vh;
     width: 80vw;
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    /*top: 50%;
+    left: 50%;*/
   }
 }
 .desktop__logo-box {

@@ -527,6 +527,14 @@ video {
   .bg-video {
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
     border-radius: 0.5rem;
+    
+    height: 90%;
+    width: 90%;
+    /*height: 100vh;
+    width: 100vw;*/
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
   }
 }
 .bg-video__content {
@@ -1318,11 +1326,10 @@ ul {
 }
 @media only screen and (min-width: 112.5em) {
   .desktop {
-    position: absolute;
-    height: 90%;
-    width: 90%;
-    /*height: 100vh;
-    width: 100vw;*/
+    /*height: 90%;
+    width: 90%;*/
+    height: 100vh;
+    width: 100vw;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;

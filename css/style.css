@@ -1241,7 +1241,7 @@ ul {
 }
 
 .gradient {
-  background-color: rgba(1, 50, 64, 0.85);
+  background-color: rgba(1, 50, 64, 0.8);
   z-index: 1;
   height: 100vh;
   width: 100vw;
@@ -1318,10 +1318,11 @@ ul {
 }
 @media only screen and (min-width: 112.5em) {
   .desktop {
-    /*height: 90%;
-    width: 90%;*/
-    height: 100vh;
-    width: 100vw;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    /*height: 100vh;
+    width: 100vw;*/
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;

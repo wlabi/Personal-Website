@@ -506,6 +506,8 @@ body {
   width: 100vw;
   z-index: -1;
   overflow: hidden;
+  object-fit: cover;
+
 }
 
 /*

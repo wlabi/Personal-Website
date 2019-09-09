@@ -831,7 +831,7 @@ textarea {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3;
-  z-index: 1;
+  z-index: 10;
 }
 .popup__inner {
   position: absolute;

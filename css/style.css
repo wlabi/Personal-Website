@@ -1240,7 +1240,7 @@ ul {
 }
 
 .gradient {
-  background: linear-gradient(to bottom, #1CB5E0, #000046, 0.8);
+  background: linear-gradient(to bottom, #1CB5E0 90%, #000046 90%);
   /*background-color: rgba(1, 50, 64, 0.8);*/
   z-index: 1;
   height: 100vh;

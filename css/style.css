@@ -286,7 +286,7 @@ body {
 .heading-primary--main {
   display: block;
   /*font-size: 7rem;***********************************************************************************/
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: .1rem;
   -webkit-animation: moveInTop 5s ease-out;
   animation: moveInTop 5s ease-out;
@@ -341,7 +341,7 @@ body {
   display: block;
   /*font-size: 2.8rem;*/
   /************************************************************************************************************/
-  font-size: 4rem;
+  font-size: 3rem;
   /*letter-spacing: 0;*/
   word-spacing: .5em !important;
   -webkit-word-spacing: .5em;

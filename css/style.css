@@ -1232,12 +1232,12 @@ ul {
   width: 100vw;
   top: 0;
   left: 0;
-  /*background-size: cover;
+  background-size: cover;
   background-position: top;
   position: relative;
   -o-object-fit: cover;
   object-fit: cover;
-  overflow: hidden;*/
+  overflow: hidden;
 }
 
 /*

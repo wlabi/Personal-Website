@@ -1298,13 +1298,13 @@ ul {
   width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 .desktop {
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
 }
 @media only screen and (min-width: 112.5em) {
   .desktop {
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
+    width: 90vw;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;

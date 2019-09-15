@@ -1228,8 +1228,8 @@ ul {
 .gradient {
   background-color: rgba(1, 50, 64, 0.8);
   z-index: 1;
-  height: 100vh;
-  width: 100vw;
+  height: 90vh;
+  width: 90vw;
   top: 50%;
   left: 50%;
   /*top: 0;
@@ -1240,13 +1240,6 @@ ul {
   -o-object-fit: cover;
   object-fit: cover;
   overflow: hidden;*/
-}
-/************************************************************************************************************/
-@media only screen and (min-width: 112.5em) {
-  .gradient {
-    height: 90%;
-    width: 90%;
-  }
 }
 
 /*

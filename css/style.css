@@ -275,7 +275,6 @@ body {
   left: 1%;
   bottom: -20%;
   z-index: 10;
-  word-spacing: -2em;
 }
 @media only screen and (max-width: 26em) {
   .heading-primary--main {

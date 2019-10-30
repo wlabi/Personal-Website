@@ -235,7 +235,7 @@ body {
   
   letter-spacing: 1rem;
   -webkit-letter-spacing: 1rem;
-  -webkit-word-spacing: 1rem;
+  -webkit-word-spacing: 1.5rem;
   
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;

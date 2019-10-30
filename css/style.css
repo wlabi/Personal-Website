@@ -233,6 +233,8 @@ body {
   /*font-family: 'Antic Didone', serif;***********/
   /*font-family: 'Song Myung', serif;*/
   
+  letter-spacing: .3rem;
+  
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -265,7 +267,7 @@ body {
 .heading-primary--main {
   display: block;
   font-size: 4rem;
-  letter-spacing: .1rem;
+  /*letter-spacing: .1rem;*/
   -webkit-animation: moveInTop 5s ease-out;
   animation: moveInTop 5s ease-out;
   color: #ffffff !important;

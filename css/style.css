@@ -234,6 +234,7 @@ body {
   /*font-family: 'Song Myung', serif;*/
   
   letter-spacing: 1rem;
+  -webkit-letter-spacing: 1rem;
   
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;

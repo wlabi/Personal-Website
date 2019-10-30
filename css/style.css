@@ -221,7 +221,7 @@ body {
 .heading-primary {
   /*font-weight: 700;*/
   /*font-family: "Vollkorn SC", serif !important;*/
-  /*font-family: 'Josefin Slab', serif;***********/
+  font-family: 'Josefin Slab', serif;
   /*font-family: 'Unna', serif;*/
   /*font-family: 'Oranienbaum', serif;***/
   /*font-family: 'Coustard', serif;*/
@@ -230,7 +230,7 @@ body {
   /*font-family: 'Trocchi', serif;******************************/
   /*font-family: 'Italiana', serif;*/
   /*font-family: 'Rozha One', serif;*/
-  font-family: 'Antic Didone', serif;
+  /*font-family: 'Antic Didone', serif;***********/
   /*font-family: 'Song Myung', serif;*/
   
   letter-spacing: 1rem;

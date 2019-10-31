@@ -409,10 +409,10 @@ body {
   top: 1rem;
   left: -0.5rem;
   text-transform: uppercase;
-  /*font-family: 'Loved by the King', cursive !important;*/
+  /*font-family: 'Loved by the King', cursive !important;
   font-family: 'Bungee Outline', cursive !important;
-  /*font-family: 'Bungee Hairline', cursive;
-  font-family: 'Bungee Shade', cursive;*/
+  font-family: 'Bungee Hairline', cursive;*/
+  font-family: 'Bungee Shade', cursive;
 }
 @media only screen and (max-width: 21em) {
   .popup__heading {

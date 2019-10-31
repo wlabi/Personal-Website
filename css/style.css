@@ -396,10 +396,10 @@ body {
   }
 }
 .popup__heading {
-  /*font-size: 4rem;*/
-  font-size: 3rem;
-  /*letter-spacing: 0.5rem;*/
-  letter-spacing: -1rem !important;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  /*font-size: 3rem;
+  letter-spacing: -1rem !important;*/
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;

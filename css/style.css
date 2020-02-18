@@ -543,7 +543,7 @@ body {
     animation: none;
     display: block;
     width: 25rem;
-    font-size: 5rem;
+    /*font-size: 4rem;*/
     font-weight: 300 !important;
     margin: 0 auto;
     margin-bottom: 3rem;
@@ -560,6 +560,7 @@ body {
     animation: none;
     /*border: 0.1rem solid #ffffff;*/
     font-family: "Lato", sans-serif !important;
+    font-size: 4rem;
   }
 }
 @media only screen and (max-width: 75em) {

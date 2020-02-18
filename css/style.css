@@ -1336,6 +1336,7 @@ ul {
 @media only screen and (max-width: 56.25em) {
   .desktop__footer {
     font-family: "Lato", sans-serif !important;
+    font-weight: 300;
   }
 }
 

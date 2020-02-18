@@ -400,6 +400,12 @@ body {
     animation: none;
   }
 }
+
+.heading-primary--sub {
+  display: none;
+}
+  
+  
 .popup__heading {
   font-size: 4rem;
   letter-spacing: 0.5rem;

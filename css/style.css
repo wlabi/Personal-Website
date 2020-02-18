@@ -357,6 +357,7 @@ body {
     margin-bottom: 2rem;
     letter-spacing: 0.3rem;
     font-weight: 400;
+    top: 30%;
   }
 }
 @media only screen and (max-width: 21em) {
@@ -365,6 +366,7 @@ body {
     -webkit-animation: none;
     animation: none;
     font-size: 3rem;
+    top: 30%;
   }
 }
 @media only screen and (max-width: 56.25em) {
@@ -372,7 +374,8 @@ body {
     -webkit-animation: none;
     animation: none;
     position: relative;
-    top: 3em;
+    /*top: 3em;*/
+    top: 30%;
     left: 0;
     /*bottom: 0;*/
     /*top: 6rem;*/

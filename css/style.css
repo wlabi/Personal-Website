@@ -518,7 +518,7 @@ body {
   .btn-ghost:link,
   .btn-ghost:visited {
     color: #fff;
-    border: 0.25rem solid #fff;
+    /*border: 0.25rem solid #fff;*/
     -webkit-animation: none;
     animation: none;
     display: block;
@@ -538,7 +538,7 @@ body {
   .btn-ghost:visited {
     -webkit-animation: none;
     animation: none;
-    border: 0.1rem solid #ffffff;
+    /*border: 0.1rem solid #ffffff;*/
     font-family: "Lato", sans-serif !important;
   }
 }

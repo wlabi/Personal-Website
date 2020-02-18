@@ -404,7 +404,12 @@ body {
 .heading-primary--sub2 {
   display: none;
 }
-  
+ 
+@media only screen and (max-width: 56.25em) {
+  .heading-primary--sub2 {
+    display: block;
+  }
+}
   
 .popup__heading {
   font-size: 4rem;

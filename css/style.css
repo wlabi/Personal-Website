@@ -272,8 +272,8 @@ body {
   /*letter-spacing: .1rem;*/
   -webkit-animation: moveInTop 5s ease-out;
   animation: moveInTop 5s ease-out;
-  color: #32cd32 !important;
-  /*color: #ffffff !important;*/
+  /*color: #32cd32 !important;*/
+  color: #ffffff !important;
   position: absolute;
   top: 16rem;
   left: 1%;
@@ -334,8 +334,8 @@ body {
   /*font-family: 'Londrina Sketch', cursive;/*
   /*font-family: 'Londrina Outline', cursive !important;*/
   /*text-align: center;*/
-  /*color: #ffffff !important;*/
-  color: #32cd32 !important;
+  color: #ffffff !important;
+  /*color: #32cd32 !important;*/
   
   /*margin: 15rem 0 0 20rem;
   margin: 1.5% 0 0 5%;

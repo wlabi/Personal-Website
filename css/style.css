@@ -820,9 +820,8 @@ textarea {
   background: linear-gradient(to bottom, #1CB5E0, #000046);
   background: radial-gradient(#1CB5E0, #000046);
   background: radial-gradient(#209077 0%, #1ae28a 100%);
-  background: radial-gradient(#43cea2 0%, #185a9d 100%);
-  background: radial-gradient(#ffd89b 0%, #19547b 100%);*/
-  background: radial-gradient(#a5cc82 0%, #00467f 100%);
+  background: radial-gradient(#43cea2 0%, #185a9d 100%);*/
+  background: radial-gradient(#ffd89b 0%, #19547b 100%);
   /*background: #209077;*/
   display: table;
   overflow: hidden;
